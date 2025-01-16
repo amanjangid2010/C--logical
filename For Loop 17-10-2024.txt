@@ -1,0 +1,96 @@
+Q.1 palindrome number : 123454321 dry run
+
+#include<stdio.h>
+int main(){
+    int num = 123454321;
+    int temp = num;
+    int rem,sum=0;
+    while(num>0){
+        rem = num%10;
+        sum = sum*10+rem;
+        num = num/10;
+    }
+    if(temp==sum){
+        printf("Palindrome Number");
+    }
+    else{
+        printf("Not Palindrome");
+    }
+    
+    return 0;
+}
+
+-----------------------------------------------
+
+Q.2 Armstrong number :153 dry run
+
+#include<stdio.h>
+int main(){
+    int num = 153;
+    int temp = num;
+    int rem,sum=0;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(temp==sum){
+        printf("Armstrong Number");
+    }
+    else{
+        printf("Not Armstrong");
+    }
+    
+    return 0;
+}
+
+----------------------------------------------------
+
+Q.4= 152 Armstronng number
+
+#include<stdio.h>
+int main(){
+    int num = 152;
+    int temp = num;
+    int rem,sum=0;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(temp==sum){
+        printf("Armstrong Number");
+    }
+    else{
+        printf("Not Armstrong");
+    }
+    
+    return 0;
+}
+
+------------------------------------------------------
+
+Q.5= 360 Armstrong number
+
+#include<stdio.h>
+int main(){
+    int number=360;
+    int temp = number;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum+rem*rem*rem;
+        number=number/10;
+    }
+    if(temp==sum){
+        printf("Armstrong Number");
+    }
+    else{
+        printf("Not Armstrong");
+    }
+    
+    return 0;
+}
+
+--------------------------------------------------------
+
