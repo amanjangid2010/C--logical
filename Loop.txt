@@ -1,0 +1,36 @@
+1. Write a Program to print the number between 200 - 300
+
+#include<stdio.h>
+int main(){
+   int num = 200;
+    while(num<=300){
+        
+        printf("%d ",num);
+        num = num + 1;
+    }
+    
+    printf("Program End");
+    
+    return 0;
+}
+
+-----------------------------------------------------------------
+
+Q2. Write a Program to print the number between 500 - 400
+
+#include<stdio.h>
+int main(){
+    
+    int num = 500;
+    
+    while(num>=400){
+        printf("%d ",num);
+        num = num - 1;
+    }
+    
+    printf("End");
+    
+    return 0;
+}
+
+------------------------------------------------------------------------------------
